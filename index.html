@@ -10,7 +10,7 @@
 <body>
     <section>
         <nav>
-            <img src="/images/FES.svg" alt="">
+            <img src="/images/FES.svg" class="logo" alt="">
             <ul>
                 <li><a href="">About</a></li>
                 <li><a href="">Projects</a></li>
@@ -18,29 +18,35 @@
             </ul>
         </nav>
         <header>
-            <div>
-                <h1>Best place to learn Frontend</h1>
-                <p>Go from absolute beginner to pro with a simplified process</p>
-                <button>Start Now</button>
-            </div>       
-            <figure>
-                <img src="/images/laptop.png" alt="Home page image">
-            </figure>      
+            <div class="row">
+                <div>
+                    <h1>Best place to learn Frontend</h1>
+                    <p class="subheader" >Go from absolute beginner to pro with a simplified process</p>
+                    <button>Start Now</button>
+                </div>       
+                <figure>
+                    <img src="/images/laptop.png" alt="Home page image">
+                </figure> 
+            </div>     
         </header>
     </section>
+
     <main>
         <section id="about">
             <h2>About</h2>
-            <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non assumenda beatae aperiam exercitationem provident nulla et, reiciendis a obcaecati consequuntur impedit commodi! Magnam cupiditate possimus reprehenderit, magni esse sed omnis.
-                </p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis quam porro voluptatum, repellendus saepe velit sequi ducimus voluptas? Debitis quasi quaerat quibusdam quos vel nisi officiis, praesentium rerum perspiciatis sed!
-                </p>
-            <figure>
+            <div class="section__desctiption">
+                <div class="section__description--wrapper">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non assumenda beatae aperiam exercitationem provident nulla et, reiciendis a obcaecati consequuntur impedit commodi! Magnam cupiditate possimus reprehenderit, magni esse sed omnis.
+                    </p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis quam porro voluptatum, repellendus saepe velit sequi ducimus voluptas? Debitis quasi quaerat quibusdam quos vel nisi officiis, praesentium rerum perspiciatis sed!
+                    </p>
+                </div>
+            <figure class="about__img--wrapper">
                 <img src="/images/about.jpg" alt="">
             </figure>
             </div>
         </section>
+
         <section id="discord">
             <h2>Discord</h2>
             <figure>
