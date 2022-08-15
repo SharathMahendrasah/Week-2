@@ -229,11 +229,12 @@ FEATURES
 
 .books {
     display: flex;
+    flex-wrap: wrap;
   }
 
 .book {
     width: 25%;
-    padding: 24px;
+    padding: px;
   }
 
 .book__img {
@@ -253,9 +254,10 @@ FEATURES
     transform: scale(1.03);
 }
 
-.book_title {
+.book__title {
     font-size: 20px;
     margin-bottom: 8px;
+    padding-left: 18px;
 }
 
 .book__title:hover {
@@ -266,12 +268,14 @@ FEATURES
 .book__ratings {
     margin-bottom: 8px;
     color: #fabf2a;
+    padding-left: 18px;
 }
 
 .book__price--normal {
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+    padding-left: 18px;
 }
 
 
