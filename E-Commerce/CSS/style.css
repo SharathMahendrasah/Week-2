@@ -23,9 +23,6 @@ nav {
 
 img { 
     width: 100%;
-    height: 100%;
-    max-height: 50vh;
-    padding: 20px;
 }
 
 p {
@@ -321,7 +318,7 @@ FEATURES
 
 .book {
     width: 25%;
-    padding: px;
+    padding: 24px;
   }
 
 .book__img {
@@ -344,7 +341,6 @@ FEATURES
 .book__title {
     font-size: 20px;
     margin-bottom: 8px;
-    padding-left: 18px;
 }
 
 .book__title:hover {
@@ -355,14 +351,12 @@ FEATURES
 .book__ratings {
     margin-bottom: 8px;
     color: #fabf2a;
-    padding-left: 18px;
 }
 
 .book__price--normal {
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
-    padding-left: 18px;
 }
 
 #explore {
